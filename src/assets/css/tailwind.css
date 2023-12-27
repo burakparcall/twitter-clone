@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+       font-size: var(--fontSize)
+}
+
+body {
+       @apply bg-[color:var(--background-primary)] text-[color:var(--color-base)] text-[0.938rem];
+}
+
+/*
+genişlik - 1265px
+Sol Sidebar - 275px
+Sag Sidebar - 350px
+Content - auto
+*/
